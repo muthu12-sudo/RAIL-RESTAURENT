@@ -1,0 +1,21 @@
+.contact {
+    background-color: white;
+    border: 1px black solid;
+    align-items: center;
+    margin: 1%;
+    padding: 10px;
+}
+
+.contact img {
+    margin: 10px 10px 10px 5%;
+}
+
+.contact span {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.table {
+    font-size: 16px;
+}
