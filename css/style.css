@@ -19,7 +19,7 @@
 }
 
 .title {
-    background: rgba(255, 123, 0, 0.9);
+    background: rgba(255, 68, 0, 0.877);
     margin: 0% .50% 0% .50%;
     padding: 1.5%;
     border-radius: 17px;
@@ -65,7 +65,6 @@
     width: 100%;
     height: 100%;
     font-size: 19px;
-    color: bisque;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
@@ -85,6 +84,7 @@
 .nav a {
     color: white;
     padding: 0;
+    margin: 0;
     text-decoration: none;
     width: 100%;
     height: 100%;
@@ -102,34 +102,40 @@
 }
 
 .head {
-    color: dodgerblue;
-    -webkit-text-stroke: 2px black;
+    color: gold;
     margin: 30px 0 30px 0;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 3px 3px 1px pink;
+    font-size: 76px;
+    font-family: 'Stalemate', cursive;
+    text-shadow: 3px 3px 1px black;
 }
 
 #contain {
-    background: honeydew;
+    background: white;
     border-radius: 20px;
     padding: 10px;
-    margin: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 22px;
-    text-align: center;
+    margin: 15px;
     color: black;
     border: 1px black solid;
-    text-shadow: 2px 2px 1px wheat;
+    text-shadow: 1px 1px 1px wheat;
     transition: all .2s;
-    font-style: bold;
 }
 
 #contain img {
     margin: 0;
-    padding: 10px;
-    max-width: 100%;
-    max-height: 100%;
+    padding: 3%;
+    width: 350px;
+    height: 250px;
+}
+
+#contain p {
+    font-size: 20px;
+    font-style: bold;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 0px;
+    line-height: 30px;
 }
 
 #contain:hover {
@@ -143,28 +149,30 @@
     gap: 10px;
 }
 
-.order {
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
     text-align: center;
-    font-size: 28px;
-    background: springgreen;
-    margin: 0 40% 0 40%;
-    border-radius: 5px;
-    padding: 20px;
-    border: 1px black solid;
-}
-
-.order a {
     color: white;
-    text-decoration: none;
-    border: steelblue;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
 }
 
-.order:hover {
-    box-shadow: 3px 3px 1px red;
+.footer h2 {
+    font-size: 30px;
 }
 
-.order a:hover {
-    text-decoration: none;
-    color: black;
-    text-shadow: 1px 1px 1px white;
+.footer p {
+    font-size: 18px;
+    line-height: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.num p {
+    text-align: center;
+}
+
+.num span {
+    color: chartreuse;
 }

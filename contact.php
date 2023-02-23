@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rail Restaurant | Pure Good Delivery | 24/7 Service | Fastest Food Delivery</title>
+    <title>Contact | Rail Restaurant | Pure Good Delivery | 24/7 Service | Fastest Food Delivery</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
